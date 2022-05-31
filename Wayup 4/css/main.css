@@ -1,0 +1,236 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	line-height: 1.65em;
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 100px;
+	margin-bottom: ;
+}
+
+.header {
+	background: background: rgba(78,192,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 62px;
+	padding-bottom: 144px;
+	color: #fff;
+	}
+
+.offer {
+	width: 570px;
+}
+
+.title {
+	font-size: 37px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	width: 412px;
+	margin-top: 43px;
+	margin-bottom: 43px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	color: #000;
+	display: block;
+	width: 222px;
+	padding: 22px 0;
+	text-align: center;
+	text-decoration: 0;
+	transition: all 0.5 ease;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: #dab318;
+}
+
+.wrapper {
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+
+.picture {
+	margin-top: 60px;
+}
+
+.learn {
+	padding-top: 108px;
+	padding-bottom: 123px;
+}
+
+.section-title {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 65px;
+
+}
+
+.future {
+	display: flex;
+	justify-content: space-between;
+}
+
+.skills {
+	width: 289px;
+	background: url('../img/icon1.png') no-repeat center top;
+	padding-top: 90px;
+}
+
+.skills-title {
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 19px;
+}
+
+.skill-text {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	text-align: center;
+}
+
+.skills-travel {
+	background: url('../img/icon2.png') no-repeat center top;
+}
+
+.skills-value {
+	background: url('../img/icon3.png') no-repeat center top;
+}
+
+.mail {
+	background: #ecf3f8;
+	padding-top: 102px;
+	padding-bottom: 103px;
+}
+
+.form {
+	margin-top: 60px;
+}
+
+.input {
+	width: 340px;
+	border: 1px solid #bbbbbb;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	height: 50px;
+	padding-left: 28px;
+	display: block;
+  	margin: 0 auto;
+  	margin-bottom: 15px;
+}
+
+.btn-form {
+	border: 0;
+	width: 340px;
+	margin: 0 auto;
+}
+
+.footer {
+	background: #164d7a;
+	padding: 64px 0;
+	}
+
+.credits {
+	color: #fff;
+	text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+
+	.picture {
+		width: 470px;
+		height: 470px;
+		margin: 0 auto;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+
+	.logo {
+		align-items: center;
+		margin-bottom: 70px;
+	}
+
+	.wrapper{
+		flex-direction: column;
+	}
+
+	.offer {
+		width: auto;
+	}
+
+	.intro {
+		width: 100%;
+	}
+
+	.future {
+		flex-direction: column;
+	}
+
+	.skills {
+		width: auto;
+		margin-bottom: 20px;
+	}
+	.picture {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+
+}
